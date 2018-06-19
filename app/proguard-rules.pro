@@ -103,3 +103,5 @@
 }
 -keep class com.bumptech.glide.integration.okhttp.OkHttpGlideModule
 -dontwarn com.bumptech.glide.integration.okhttp3.*
+
+-keep public class *extends java.lang.annotation.Annotation {}

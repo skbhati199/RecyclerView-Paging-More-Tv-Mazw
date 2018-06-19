@@ -55,3 +55,7 @@ android {
     }
 }
 apply from: 'dependencies.gradle'
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:+'
+}
